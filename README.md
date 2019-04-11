@@ -9,8 +9,22 @@ The term "Microservice Architecture" has sprung up over the last few years to de
 
 by [OMAR ELGABRY](https://medium.com/@OmarElGabry)
 
-## Service
-- Discovery Service
+## API Gateway / Reverse Proxy
+cd api-gateway
+```
+mvn clean spring-boot:run
+```
+
+## Discovery Service
+cd service-discovery
+```
+mvn clean spring-boot:run
+```
+go to localhost:8761, Instances currently services registered with Eureka
+
+## Avaible Service
+- TUK Management
+    - goto http://localhost:8080/api/management/swagger-ui.html, to view avaible API for services
 
 
 ## References

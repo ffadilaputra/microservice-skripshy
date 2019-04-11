@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="rest-api-0.0.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/belajar-spring-rest-api/target/rest-api-0.0.1-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

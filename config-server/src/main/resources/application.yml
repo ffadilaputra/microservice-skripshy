@@ -1,0 +1,17 @@
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka/
+
+spring:
+    application:
+        name: configuration-service
+    cloud:
+        config:
+            server:
+                bootstrap: true
+                git:
+                    uri: https://github.com/ffadilaputra/microservice-skripshy.git
+                    searchPaths: 'config, config/{application}'
+                    cloneOnStart: true
+                    basedir: 'target/config'
