@@ -1,51 +1,32 @@
 package org.ffadilaputra.belajarspringrestapi.controller;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.SerializationFeature;
 import org.ffadilaputra.belajarspringrestapi.entity.Hardware;
-import org.ffadilaputra.belajarspringrestapi.service.HardwareService;
+import org.ffadilaputra.belajarspringrestapi.entity.Tuk;
+import org.ffadilaputra.belajarspringrestapi.service.TukService;
 import org.ffadilaputra.belajarspringrestapi.util.Response;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
-import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping(value = "hardware")
-public class HardwareController {
+@RequestMapping(value = "tuk")
+public class TukController {
 
     @Autowired
-    HardwareService hardwareService;
-    private String service = "Hardware";
+    TukService tukService;
+    private String service = "Tuk";
 
-    //Create Data
-    @PostMapping
-    ResponseEntity<Response> create(@RequestBody @Validated Hardware hardware){
+    @GetMapping
+    ResponseEntity<Response> findAll(){
         String nameOfCurrMethod = new Throwable().getStackTrace()[0].getMethodName();
         Response response = new Response();
         response.setService(this.getClass().getName() + nameOfCurrMethod);
-        response.setMessage("Data Created Successfully");
+        response.setMessage("Get All data");
 
-        //Insert Data
-        response.setData(hardwareService.create(hardware));
-        return ResponseEntity
-                .status(HttpStatus.OK)
-                .contentType(MediaType.APPLICATION_JSON)
-                .body(response);
-    }
-    @PutMapping(value = "{id}")
-    ResponseEntity<Response> update(@PathVariable("id") Long id, @RequestBody @Validated Hardware hardware){
-        String nameOfCurrMethod = new Throwable().getStackTrace()[0].getMethodName();
-        Response response = new Response();
-        response.setService(this.getClass().getName() + nameOfCurrMethod);
-        response.setMessage("Data Updated Successfully");
-
-        //Update Data
-        response.setData(hardwareService.update(id,hardware));
+        response.setData(tukService.findAll());
 
         return ResponseEntity
                 .status(HttpStatus.OK)
@@ -60,7 +41,7 @@ public class HardwareController {
         response.setService(this.getClass().getName() + nameOfCurrMethod);
         response.setMessage("Get Data ny Id");
 
-        response.setData(hardwareService.findById(id));
+        response.setData(tukService.findById(id));
 
         return ResponseEntity
                 .status(HttpStatus.OK)
@@ -68,14 +49,31 @@ public class HardwareController {
                 .body(response);
     }
 
-    @GetMapping
-    ResponseEntity<Response> findAll(){
+    //Create Data
+    @PostMapping
+    ResponseEntity<Response> create(@RequestBody @Validated Tuk tuk){
         String nameOfCurrMethod = new Throwable().getStackTrace()[0].getMethodName();
         Response response = new Response();
         response.setService(this.getClass().getName() + nameOfCurrMethod);
-        response.setMessage("Get All data");
+        response.setMessage("Data Tuk Created Successfully");
 
-        response.setData(hardwareService.findAll());
+        //Insert Data
+        response.setData(tukService.create(tuk));
+        return ResponseEntity
+                .status(HttpStatus.OK)
+                .contentType(MediaType.APPLICATION_JSON)
+                .body(response);
+    }
+
+    @PutMapping(value = "{id}")
+    ResponseEntity<Response> update(@PathVariable("id") Long id, @RequestBody @Validated Tuk tuk){
+        String nameOfCurrMethod = new Throwable().getStackTrace()[0].getMethodName();
+        Response response = new Response();
+        response.setService(this.getClass().getName() + nameOfCurrMethod);
+        response.setMessage("Data Tuk Updated Successfully");
+
+        //Update Data
+        response.setData(tukService.update(id,tuk));
 
         return ResponseEntity
                 .status(HttpStatus.OK)
@@ -90,11 +88,12 @@ public class HardwareController {
         response.setService(this.getClass().getName() + nameOfCurrMethod);
         response.setMessage("Data Deleted by Id");
 
-        hardwareService.delete(id);
+        tukService.delete(id);
 
         return ResponseEntity
                 .status(HttpStatus.OK)
                 .contentType(MediaType.APPLICATION_JSON)
                 .body(response);
     }
+
 }

@@ -39,8 +39,8 @@ public class SwaggerConfig {
                 "https://ffadilaputra.github.io",
                 "i.fadilaputra@gmail.com");
         return new ApiInfo(
-                "Membangun Rest API dengan SpringBoot",
-                "Ini adalah implementasi swagger pada Rest Spring Boot",
+                "TUK Management Service",
+                "Daftar API untuk management service",
                 "Version 1.0.0",
                 "WTFPL",
                 contact,
