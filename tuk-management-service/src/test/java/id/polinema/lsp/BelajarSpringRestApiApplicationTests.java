@@ -1,4 +1,4 @@
-package org.ffadilaputra.belajarspringrestapi;
+package id.polinema.lsp;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

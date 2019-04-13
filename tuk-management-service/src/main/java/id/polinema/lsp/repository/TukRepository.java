@@ -1,6 +1,6 @@
-package org.ffadilaputra.belajarspringrestapi.repository;
+package id.polinema.lsp.repository;
 
-import org.ffadilaputra.belajarspringrestapi.entity.Tuk;
+import id.polinema.lsp.entity.Tuk;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface TukRepository extends JpaRepository<Tuk, Long> {

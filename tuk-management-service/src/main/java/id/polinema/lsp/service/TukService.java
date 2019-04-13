@@ -1,6 +1,7 @@
-package org.ffadilaputra.belajarspringrestapi.service;
+package id.polinema.lsp.service;
 
-import org.ffadilaputra.belajarspringrestapi.entity.Tuk;
+import id.polinema.lsp.entity.Tuk;
+
 import java.util.List;
 
 public interface TukService {

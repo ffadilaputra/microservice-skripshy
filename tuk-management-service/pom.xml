@@ -13,8 +13,8 @@
 	<groupId>org.ffadilaputra.belajarspringrestapi</groupId>
 	<artifactId>rest-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>rest-api</name>
-	<description>Belajar Rest API</description>
+	<name>tuk-management-service</name>
+	<description>TUK Management Service</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -74,6 +74,12 @@
 			<version>2.7.0</version>
 		</dependency>
 
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+			<version>2.1.1.RELEASE</version>
+		</dependency>
+
 		<!-- Agar Lebih LessCode -->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
@@ -85,6 +91,7 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
+			<scope>runtime</scope>
 		</dependency>
 
 	</dependencies>

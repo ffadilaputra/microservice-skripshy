@@ -1,9 +1,8 @@
-package org.ffadilaputra.belajarspringrestapi.controller;
+package id.polinema.lsp.controller;
 
-import org.ffadilaputra.belajarspringrestapi.entity.Hardware;
-import org.ffadilaputra.belajarspringrestapi.entity.Tuk;
-import org.ffadilaputra.belajarspringrestapi.service.TukService;
-import org.ffadilaputra.belajarspringrestapi.util.Response;
+import id.polinema.lsp.entity.Tuk;
+import id.polinema.lsp.service.TukService;
+import id.polinema.lsp.util.Response;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;

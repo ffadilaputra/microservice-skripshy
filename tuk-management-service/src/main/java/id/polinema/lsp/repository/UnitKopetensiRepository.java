@@ -1,4 +1,7 @@
 package id.polinema.lsp.repository;
 
-public interface UnitKopetensiRepository {
+import id.polinema.lsp.entity.UnitKopetensi;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface UnitKopetensiRepository extends JpaRepository<UnitKopetensi,Long> {
 }

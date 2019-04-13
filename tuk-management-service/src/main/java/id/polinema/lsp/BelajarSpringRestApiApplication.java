@@ -1,4 +1,4 @@
-package org.ffadilaputra.belajarspringrestapi;
+package id.polinema.lsp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

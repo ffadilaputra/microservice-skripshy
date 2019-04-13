@@ -1,4 +1,4 @@
-package org.ffadilaputra.belajarspringrestapi.config;
+package id.polinema.lsp.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;

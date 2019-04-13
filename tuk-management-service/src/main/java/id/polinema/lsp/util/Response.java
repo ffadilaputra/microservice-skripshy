@@ -1,4 +1,4 @@
-package org.ffadilaputra.belajarspringrestapi.util;
+package id.polinema.lsp.util;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -1,8 +1,8 @@
-package org.ffadilaputra.belajarspringrestapi.implement;
+package id.polinema.lsp.implement;
 
-import org.ffadilaputra.belajarspringrestapi.entity.Tuk;
-import org.ffadilaputra.belajarspringrestapi.repository.TukRepository;
-import org.ffadilaputra.belajarspringrestapi.service.TukService;
+import id.polinema.lsp.entity.Tuk;
+import id.polinema.lsp.service.TukService;
+import id.polinema.lsp.repository.TukRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
