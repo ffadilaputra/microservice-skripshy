@@ -14,6 +14,9 @@ zuul:
     tuk-management-service:
       path: /management/**
       serviceId: tuk-management-service
+    acessor-management-service:
+      path: /user/**
+      serviceId: acessor-management-service
 
 
 

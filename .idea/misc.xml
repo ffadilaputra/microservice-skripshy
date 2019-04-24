@@ -7,6 +7,9 @@
         <option value="$PROJECT_DIR$/service-discovery/pom.xml" />
         <option value="$PROJECT_DIR$/configuration-service/pom.xml" />
         <option value="$PROJECT_DIR$/belajar-spring-rest-api/pom.xml" />
+        <option value="$PROJECT_DIR$/zipkin-server/pom.xml" />
+        <option value="$PROJECT_DIR$/acessor-management-service/pom.xml" />
+        <option value="$PROJECT_DIR$/pemohon-management-service/pom.xml" />
       </list>
     </option>
   </component>

@@ -10,9 +10,13 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.logging.Logger;
+
 @RestController
 @RequestMapping(value = "kopetensi/elemen")
 public class ElemenKopetensiController {
+
+    private static final Logger LOG = Logger.getLogger(ElemenKopetensiController.class.getName());
 
     @Autowired
     ElemenKopetensiService elemenKopetensiService;
@@ -31,7 +35,9 @@ public class ElemenKopetensiController {
                 .status(HttpStatus.OK)
                 .contentType(MediaType.APPLICATION_JSON)
                 .body(response);
+
     }
+
 
     @GetMapping(value = "{id}")
     ResponseEntity<Response> getById(@PathVariable("id") Long id){

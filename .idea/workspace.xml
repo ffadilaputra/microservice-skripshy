@@ -2,38 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f524f61-5edb-4e3d-a4b3-378ddbdbc606" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_sleuth_core_1_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_sleuth_1_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acessor-management-service/src/main/java/id/polinema/acessor/managementacessor/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acessor-management-service/src/main/java/id/polinema/acessor/managementacessor/controller/AcessorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acessor-management-service/src/main/java/id/polinema/acessor/managementacessor/implement/AcessorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acessor-management-service/src/main/java/id/polinema/acessor/managementacessor/repository/AcessorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acessor-management-service/src/main/java/id/polinema/acessor/managementacessor/service/AcessorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acessor-management-service/src/main/java/id/polinema/acessor/managementacessor/util/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pemohon-management-service/src/main/java/id/polinema/acessor/managementacessor/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pemohon-management-service/src/main/java/id/polinema/acessor/managementacessor/controller/PemohonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pemohon-management-service/src/main/java/id/polinema/acessor/managementacessor/entity/Pemohon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pemohon-management-service/src/main/java/id/polinema/acessor/managementacessor/implement/PemohonImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pemohon-management-service/src/main/java/id/polinema/acessor/managementacessor/repository/PemohonRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pemohon-management-service/src/main/java/id/polinema/acessor/managementacessor/service/PemohonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pemohon-management-service/src/main/java/id/polinema/acessor/managementacessor/util/Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tuk-management-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tuk-management-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/BelajarSpringRestApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/BelajarSpringRestApiApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/config/SwaggerConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/controller/ElemenKopetensiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/controller/ElemenKopetensiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/controller/SkemaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/controller/SkemaController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/controller/TukController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/controller/TukController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/controller/UnitKopetensiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/controller/UnitKopetensiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/entity/ElemenKopetensi.java" beforeDir="false" afterPath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/entity/ElemenKopetensi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/entity/Kuk.java" beforeDir="false" afterPath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/entity/Kuk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/entity/Skema.java" beforeDir="false" afterPath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/entity/Skema.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/entity/Tuk.java" beforeDir="false" afterPath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/entity/Tuk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/entity/UnitKopetensi.java" beforeDir="false" afterPath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/entity/UnitKopetensi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/implement/ElemenKopetensiServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/implement/ElemenKopetensiServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/implement/KukServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/implement/KukServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/implement/SkemaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/implement/SkemaServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/implement/TukServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/implement/TukServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/implement/UnitKopetensiImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/implement/UnitKopetensiImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/repository/ElemenKopetensiRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/repository/ElemenKopetensiRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/repository/KukRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/repository/KukRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/repository/SkemaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/repository/SkemaRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/repository/TukRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/repository/TukRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/repository/UnitKopetensiRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/repository/UnitKopetensiRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/service/ElemenKopetensiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/service/ElemenKopetensiService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/service/KukService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/service/KukService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/service/SkemaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/service/SkemaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/service/TukService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/service/TukService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/service/UnitKopetensiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/service/UnitKopetensiService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/util/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/util/Response.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tuk-management-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/tuk-management-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tuk-management-service/src/test/java/id/polinema/lsp/BelajarSpringRestApiApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/tuk-management-service/src/test/java/id/polinema/lsp/BelajarSpringRestApiApplicationTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/config/bin/" />
@@ -42,11 +38,28 @@
     <ignored path="$PROJECT_DIR$/configuration-service/target/" />
     <ignored path="$PROJECT_DIR$/belajar-spring-rest-api/target/" />
     <ignored path="$PROJECT_DIR$/tuk-management-service/target/" />
+    <ignored path="$PROJECT_DIR$/zipkin-server/target/" />
+    <ignored path="$PROJECT_DIR$/acessor-management-service/target/" />
+    <ignored path="$PROJECT_DIR$/pemohon-management-service/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -54,22 +67,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/pemohon-management-service/src/main/java/id/polinema/acessor/managementacessor/controller/PemohonController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="205">
+              <caret line="82" column="61" selection-end-line="97" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tuk-management-service/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="22" lean-forward="true" selection-end-line="25" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="399">
-                <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/pemohon-management-service/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -88,6 +110,9 @@
     <findStrings>
       <find>HardWare</find>
       <find>dev</find>
+      <find>web</find>
+      <find>prot</find>
+      <find>port</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -96,33 +121,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tuk-management-service/src/main/java/id/lsp/management/entity/CompetitionUnit.java" />
-        <option value="$PROJECT_DIR$/tuk-management-service/src/main/java/id/lsp/management/entity/Scheme.java" />
-        <option value="$PROJECT_DIR$/tuk-management-service/src/main/java/id/lsp/management/service/SchmeService.java" />
-        <option value="$PROJECT_DIR$/tuk-management-service/src/main/java/id/lsp/management/repository/SchemeRepository.java" />
-        <option value="$PROJECT_DIR$/tuk-management-service/src/main/java/id/lsp/management/service/SchemeServiceImpl.java" />
-        <option value="$PROJECT_DIR$/tuk-management-service/src/main/java/id/lsp/management/controller/SchemeController.java" />
-        <option value="$PROJECT_DIR$/tuk-management-service/src/main/java/id/lsp/management/config/SwaggerConfig.java" />
-        <option value="$PROJECT_DIR$/config-server/src/main/java/org/ffadilaputra/config/configurationservice/ConfigurationServiceApplication.java" />
-        <option value="$PROJECT_DIR$/config-server/src/main/resources/config-repo/tuk-management.properties" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/tuk-management-service/src/main/java/id/lsp/management/BelajarSpringRestApiApplication.java" />
-        <option value="$PROJECT_DIR$/tuk-management-service/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/tuk-management-service/src/main/java/org/ffadilaputra/belajarspringrestapi/BelajarSpringRestApiApplication.java" />
-        <option value="$PROJECT_DIR$/tuk-management-service/src/main/java/org/ffadilaputra/belajarspringrestapi/controller/HardwareController.java" />
-        <option value="$PROJECT_DIR$/tuk-management-service/src/main/java/org/ffadilaputra/belajarspringrestapi/entity/Tuk.java" />
-        <option value="$PROJECT_DIR$/tuk-management-service/src/main/java/org/ffadilaputra/belajarspringrestapi/service/TukService.java" />
-        <option value="$PROJECT_DIR$/tuk-management-service/src/main/java/org/ffadilaputra/belajarspringrestapi/repository/TukRepository.java" />
-        <option value="$PROJECT_DIR$/tuk-management-service/src/main/java/org/ffadilaputra/belajarspringrestapi/implement/TukServiceImpl.java" />
         <option value="$PROJECT_DIR$/tuk-management-service/src/main/java/org/ffadilaputra/belajarspringrestapi/controller/TukController.java" />
         <option value="$PROJECT_DIR$/tuk-management-service/src/main/java/org/ffadilaputra/belajarspringrestapi/config/SwaggerConfig.java" />
-        <option value="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/config/SwaggerConfig.java" />
         <option value="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/entity/Skema.java" />
         <option value="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/entity/Tuk.java" />
         <option value="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/repository/SkemaRepository.java" />
         <option value="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/service/SkemaService.java" />
         <option value="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/implement/SkemaServiceImpl.java" />
-        <option value="$PROJECT_DIR$/tuk-management-service/pom.xml" />
         <option value="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/controller/SkemaController.java" />
         <option value="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/repository/HardwareRepository.java" />
         <option value="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/service/ElemenKopetensiService.java" />
@@ -138,8 +143,35 @@
         <option value="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/controller/UnitKopetensiController.java" />
         <option value="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/service/UnitKopetensiService.java" />
         <option value="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/implement/UnitKopetensiImpl.java" />
-        <option value="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/controller/ElemenKopetensiController.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/tuk-management-service/pom.xml" />
+        <option value="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/controller/ElemenKopetensiController.java" />
+        <option value="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/controller/TukController.java" />
+        <option value="$PROJECT_DIR$/tuk-management-service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/zipkin-server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/zipkin-server/pom.xml" />
+        <option value="$PROJECT_DIR$/zipkin-server/src/main/java/id/polinema/zipkin/zipkinserver/ZipkinServerApplication.java" />
+        <option value="$PROJECT_DIR$/acessor-management-service/src/main/java/id/polinema/acessor/managementacessor/config/SwaggerConfig.java" />
+        <option value="$PROJECT_DIR$/acessor-management-service/src/main/java/id/polinema/acessor/managementacessor/entity/Acessor.java" />
+        <option value="$PROJECT_DIR$/acessor-management-service/src/main/java/id/polinema/acessor/managementacessor/service/AcessorService.java" />
+        <option value="$PROJECT_DIR$/acessor-management-service/src/main/java/id/polinema/acessor/managementacessor/repository/AcessorRepository.java" />
+        <option value="$PROJECT_DIR$/acessor-management-service/src/main/java/id/polinema/acessor/managementacessor/implement/AcessorImpl.java" />
+        <option value="$PROJECT_DIR$/acessor-management-service/src/main/java/id/polinema/acessor/managementacessor/controller/AcessorController.java" />
+        <option value="$PROJECT_DIR$/acessor-management-service/pom.xml" />
+        <option value="$PROJECT_DIR$/acessor-management-service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/acessor-management-service/src/main/java/id/polinema/acessor/managementacessor/ManagementAcessorApplication.java" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/pemohon-management-service/src/main/java/id/polinema/acessor/managementacessor/repository/PemohonRepository.java" />
+        <option value="$PROJECT_DIR$/pemohon-management-service/src/main/java/id/polinema/acessor/managementacessor/entity/Pemohon.java" />
+        <option value="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/util/Response.java" />
+        <option value="$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/config/SwaggerConfig.java" />
+        <option value="$PROJECT_DIR$/pemohon-management-service/pom.xml" />
+        <option value="$PROJECT_DIR$/pemohon-management-service/src/main/java/id/polinema/acessor/managementacessor/config/SwaggerConfig.java" />
+        <option value="$PROJECT_DIR$/pemohon-management-service/src/main/java/id/polinema/acessor/managementacessor/service/PemohonService.java" />
+        <option value="$PROJECT_DIR$/pemohon-management-service/src/main/java/id/polinema/acessor/managementacessor/util/Response.java" />
+        <option value="$PROJECT_DIR$/pemohon-management-service/src/main/java/id/polinema/acessor/managementacessor/implement/PemohonImpl.java" />
+        <option value="$PROJECT_DIR$/pemohon-management-service/src/main/java/id/polinema/acessor/managementacessor/controller/PemohonController.java" />
+        <option value="$PROJECT_DIR$/pemohon-management-service/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -174,7 +206,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="711" />
+    <option name="height" value="708" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -182,35 +214,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="microservices-skripsi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api-gateway" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices-skripsi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices-skripsi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices-skripsi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
@@ -241,10 +244,68 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="microservices-skripsi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pemohon-management-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices-skripsi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pemohon-management-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices-skripsi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pemohon-management-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices-skripsi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pemohon-management-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices-skripsi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tuk-management-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices-skripsi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tuk-management-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices-skripsi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tuk-management-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices-skripsi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tuk-management-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -254,11 +315,20 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="id.polinema.acessor.managementacessor.util" />
+      <recent name="id.polinema.acessor.managementacessor.config" />
+      <recent name="id.polinema.lsp.config" />
+      <recent name="id.polinema.lsp.util" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -272,7 +342,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServiceDiscoveryApplication">
+  <component name="RunManager" selected="Spring Boot.ManagementAcessorApplication">
     <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="api-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.ffadilaputra.gateway.apigateway.ApiGatewayApplication" />
@@ -301,9 +371,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ManagementAcessorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="management-acessor" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="id.polinema.acessor.managementacessor.ManagementAcessorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ServiceDiscoveryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="discovery-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.ffadilaputra.discovery.ServiceDiscoveryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZipkinServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zipkin-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="id.polinema.zipkin.zipkinserver.ZipkinServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -333,18 +417,20 @@
       <workItem from="1554975003027" duration="1566000" />
       <workItem from="1554976696610" duration="8939000" />
       <workItem from="1555123975842" duration="6715000" />
-      <workItem from="1555154675730" duration="3555000" />
+      <workItem from="1555154675730" duration="3707000" />
+      <workItem from="1555988604106" duration="5893000" />
+      <workItem from="1556066372812" duration="11459000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26256000" />
+    <option name="totallyTimeSpent" value="43760000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="711" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="708" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26332796" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23909532" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -352,9 +438,10 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32954547" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956383" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32956383" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32954547" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -372,7 +459,7 @@
       <window_info anchor="right" id="Maven" order="3" weight="0.32956383" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32956383" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
@@ -383,225 +470,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tuk-management-service/src/main/java/id/lsp/management/controller/HardwareController.java" />
-    <entry file="file://$PROJECT_DIR$/tuk-management-service/src/main/java/id/lsp/management/controller/SchemeController.java" />
-    <entry file="file://$PROJECT_DIR$/tuk-management-service/src/main/java/id/lsp/management/entity/CompetitionUnit.java" />
-    <entry file="file://$PROJECT_DIR$/tuk-management-service/src/main/java/id/lsp/management/entity/Hardware.java" />
-    <entry file="file://$PROJECT_DIR$/tuk-management-service/src/main/java/id/lsp/management/repository/HardwareRepository.java" />
-    <entry file="file://$PROJECT_DIR$/tuk-management-service/src/main/java/id/lsp/management/repository/SchemeRepository.java" />
-    <entry file="file://$PROJECT_DIR$/config-server/src/main/java/org/ffadilaputra/config/configurationservice/ConfigurationServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding>
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#543#544#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tuk-management-service/src/main/java/id/lsp/management/config/SwaggerConfig.java" />
-    <entry file="file://$PROJECT_DIR$/tuk-management-service/src/main/java/id/lsp/management/BelajarSpringRestApiApplication.java" />
-    <entry file="file://$PROJECT_DIR$/tuk-management-service/src/main/java/id/lsp/management/entity/Scheme.java" />
-    <entry file="file://$PROJECT_DIR$/tuk-management-service/tuk-management-service.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/config-repo/tuk-management-service.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/util/Response.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/BelajarSpringRestApiApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/service/HardwareService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tuk-management-service/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/config/SwaggerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/repository/TukRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/implement/HardwareServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
-          <folding>
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#652#653#0" expanded="true" />
-            <element signature="e#869#870#0" expanded="true" />
-            <element signature="e#925#926#0" expanded="true" />
-            <element signature="e#974#975#0" expanded="true" />
-            <element signature="e#1023#1024#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tuk-management-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="96" column="19" selection-start-line="96" selection-start-column="19" selection-end-line="96" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/controller/HardwareController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="81" selection-start-line="81" selection-end-line="94" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/entity/Hardware.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/repository/HardwareRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="39" lean-forward="true" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/service/ElemenKopetensiService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/repository/SkemaRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/repository/ElemenKopetensiRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/entity/Skema.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/entity/ElemenKopetensi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/implement/ElemenKopetensiServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-            <element signature="e#1083#1084#0" expanded="true" />
-            <element signature="e#1123#1124#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/implement/SkemaServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding>
-            <element signature="e#570#571#0" expanded="true" />
-            <element signature="e#619#620#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/controller/SkemaController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="81" selection-start-line="81" selection-end-line="94" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/entity/Tuk.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -653,16 +521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/controller/TukController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -759,16 +617,161 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="399">
+            <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/controller/SkemaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/BelajarSpringRestApiApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/controller/ElemenKopetensiController.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-838">
+          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/controller/TukController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipkin-server/src/test/java/id/polinema/zipkin/zipkinserver/ZipkinServerApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipkin-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipkin-server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
-          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipkin-server/src/main/java/id/polinema/zipkin/zipkinserver/ZipkinServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tuk-management-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/entity/ElemenKopetensi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acessor-management-service/src/main/java/id/polinema/acessor/managementacessor/repository/AcessorRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acessor-management-service/src/main/java/id/polinema/acessor/managementacessor/service/AcessorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acessor-management-service/src/main/java/id/polinema/acessor/managementacessor/controller/AcessorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acessor-management-service/src/main/java/id/polinema/acessor/managementacessor/implement/AcessorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#663#664#0" expanded="true" />
+            <element signature="e#1033#1034#0" expanded="true" />
+            <element signature="e#1075#1076#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acessor-management-service/src/main/java/id/polinema/acessor/managementacessor/ManagementAcessorApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/org/ffadilaputra/gateway/apigateway/ApiGatewayApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
+        <state relative-caret-position="141">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -778,20 +781,186 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/acessor-management-service/src/main/java/id/polinema/acessor/managementacessor/config/SwaggerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="215">
+          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="399">
-            <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/acessor-management-service/src/main/java/id/polinema/acessor/managementacessor/entity/Acessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acessor-management-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="24" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acessor-management-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="102" column="19" selection-start-line="22" selection-start-column="4" selection-end-line="102" selection-end-column="19" />
+          <folding>
+            <element signature="n#dependencies#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pemohon-management-service/src/main/java/id/polinema/acessor/managementacessor/ManagementAcessorApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/util/Response.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acessor-management-service/src/main/java/id/polinema/acessor/managementacessor/util/Response.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/config/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pemohon-management-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-551">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pemohon-management-service/src/main/java/id/polinema/acessor/managementacessor/config/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="47" column="41" lean-forward="true" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pemohon-management-service/src/main/java/id/polinema/acessor/managementacessor/entity/Pemohon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pemohon-management-service/src/main/java/id/polinema/acessor/managementacessor/util/Response.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pemohon-management-service/src/main/java/id/polinema/acessor/managementacessor/repository/PemohonRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pemohon-management-service/src/main/java/id/polinema/acessor/managementacessor/service/PemohonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tuk-management-service/src/main/java/id/polinema/lsp/implement/ElemenKopetensiServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1083#1084#0" expanded="true" />
+            <element signature="e#1139#1140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pemohon-management-service/src/main/java/id/polinema/acessor/managementacessor/implement/PemohonImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <folding>
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#1034#1035#0" expanded="true" />
+            <element signature="e#1082#1083#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pemohon-management-service/src/main/java/id/polinema/acessor/managementacessor/controller/PemohonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="82" column="61" selection-end-line="97" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tuk-management-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="22" lean-forward="true" selection-end-line="25" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pemohon-management-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
         </state>
       </provider>
     </entry>

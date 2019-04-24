@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/config/config.iml" filepath="$PROJECT_DIR$/config/config.iml" />
       <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-discovery/discovery-service.iml" filepath="$PROJECT_DIR$/service-discovery/discovery-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/acessor-management-service/management-acessor.iml" filepath="$PROJECT_DIR$/acessor-management-service/management-acessor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pemohon-management-service/pemohon-management.iml" filepath="$PROJECT_DIR$/pemohon-management-service/pemohon-management.iml" />
       <module fileurl="file://$PROJECT_DIR$/tuk-management-service/tuk-management-service.iml" filepath="$PROJECT_DIR$/tuk-management-service/tuk-management-service.iml" />
     </modules>
   </component>

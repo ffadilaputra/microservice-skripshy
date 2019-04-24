@@ -6,9 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="discovery-service" />
-        <module name="api-gateway" />
         <module name="tuk-management-service" />
+        <module name="pemohon-management" />
+        <module name="discovery-service" />
+        <module name="management-acessor" />
+        <module name="api-gateway" />
       </profile>
       <profile name="Annotation profile for configuration-service" enabled="true">
         <sourceOutputDir name="../configuration-service/target/generated-sources/annotations" />
@@ -21,7 +23,10 @@
       <module name="api-gateway" target="1.8" />
       <module name="config-server" target="1.8" />
       <module name="discovery-service" target="1.8" />
+      <module name="management-acessor" target="1.8" />
+      <module name="pemohon-management" target="1.8" />
       <module name="tuk-management-service" target="1.8" />
+      <module name="zipkin-server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -29,7 +34,10 @@
       <module name="api-gateway" options="-parameters" />
       <module name="config-server" options="-parameters" />
       <module name="discovery-service" options="-parameters" />
+      <module name="management-acessor" options="-parameters" />
+      <module name="pemohon-management" options="-parameters" />
       <module name="tuk-management-service" options="-parameters" />
+      <module name="zipkin-server" options="" />
     </option>
   </component>
 </project>

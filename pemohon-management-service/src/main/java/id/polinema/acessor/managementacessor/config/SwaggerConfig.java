@@ -1,4 +1,4 @@
-package id.polinema.lsp.config;
+package id.polinema.acessor.managementacessor.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
@@ -56,6 +56,8 @@ public class SwaggerConfig {
                 new MappingJackson2HttpMessageConverter(mapper);
         return converter;
     }
+
+
 
 }
 
